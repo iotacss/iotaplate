@@ -1,0 +1,31 @@
+/**
+ * Enables / Disables breakpoint specific classes
+ *
+ * Type: Boolean
+ */
+
+$iota-utils-text-res: false;
+
+
+/**
+ * Overrides breakpoints map only for position utility
+ * 
+ * Type: Map
+ */
+
+$iota-utils-text-breakpoints: $iota-global-breakpoints;
+
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-utils-text-namespace    : 'text-';
+$iota-utils-text-left-name    : 'left';
+$iota-utils-text-right-name   : 'right';
+$iota-utils-text-center-name  : 'center';
+
+
+@import 'node_modules/iotacss/utilities/text';

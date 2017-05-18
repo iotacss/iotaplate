@@ -1,0 +1,32 @@
+/**
+ * Enables / Disables breakpoint specific classes
+ *
+ * Type: Boolean
+ */
+
+$iota-utils-transform-res: false;
+
+
+/**
+ * Breakpoints map. Overrides the breakpoints map only
+ * for margin utility.
+ *
+ * Type: Map
+ */
+
+$iota-utils-transform-breakpoints: $iota-global-breakpoints;
+
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-utils-transform-namespace       : '';
+$iota-utils-transform-capitalize-name : 'capitalize';
+$iota-utils-transform-uppercase-name  : 'uppercase';
+$iota-utils-transform-lowercase-name  : 'lowercase';
+
+
+@import 'node_modules/iotacss/utilities/transform';

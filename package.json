@@ -1,0 +1,45 @@
+{
+  "name": "iotaplate",
+  "version": "1.0.0",
+  "description": "iotaCSS boilerplate generator",
+  "license": "MIT",
+  "repository": "iotacss/iotaplate",
+  "author": {
+    "name": "Dimitris Psaropoulos",
+    "email": "info@harby.me",
+    "url": "harby.me"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "plugin",
+    "boilerplate",
+    "template",
+    "scaffold",
+    "css",
+    "bem",
+    "sass",
+    "iotacss"
+  ],
+  "bin": "cli.js",
+  "engines": {
+    "node": ">= 4"
+  },
+  "dependencies": {
+    "humanize-url": "^1.0.1",
+    "is-scoped": "^1.0.0",
+    "normalize-url": "^1.2.0",
+    "superb": "^1.1.3",
+    "underscore.string": "^3.0.3",
+    "yeoman-environment": "^1.6.6",
+    "yeoman-generator": "^1.0.1"
+  },
+  "devDependencies": {
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true,
+    "ignores": [
+      "app/templates/**"
+    ]
+  }
+}

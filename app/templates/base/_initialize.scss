@@ -1,0 +1,42 @@
+/**
+ * Global box sizing option
+ *
+ * Type: String
+ */
+
+$iota-base-initialize-box-sizing: 'border-box';
+
+
+/**
+ * Makes all heading tags ( h1 - h6 ) to be equal
+ * to your body size.  It forces you to use heading
+ * tags with focus on your semantics and not on the
+ * way they look.
+ *
+ * Type: Boolean
+ */
+
+$iota-base-initialize-heading-size: false;
+
+
+/**
+ * Enables normalize and resets for the HTML4 form
+ * elements
+ *
+ * Type: Boolean
+ */
+
+$iota-base-initialize-form-elements: false;
+
+
+/**
+ * Enables normalize and resets for the HTML5 form
+ * elements
+ *
+ * Type: Boolean
+ */
+
+$iota-base-initialize-html5-form-elements: false;
+
+
+@import 'node_modules/iotacss/base/initialize';

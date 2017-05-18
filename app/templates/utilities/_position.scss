@@ -1,0 +1,32 @@
+/**
+ * Enable / Disable breakpoint specific classes
+ * 
+ * Type: Boolean
+ */
+
+$iota-utils-position-res: false;
+
+
+/**
+ * Overrides breakpoints map only for position utility
+ *
+ * Type: Map
+ */
+
+$iota-utils-position-breakpoints: $iota-global-breakpoints;
+
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-utils-position-namespace      : '';
+$iota-utils-position-absolute-name  : 'absolute';
+$iota-utils-position-fixed-name     : 'fixed';
+$iota-utils-position-relative-name  : 'relative';
+$iota-utils-position-static-name    : 'static';
+
+
+@import 'node_modules/iotacss/utilities/position';

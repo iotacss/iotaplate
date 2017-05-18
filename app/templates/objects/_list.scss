@@ -1,0 +1,67 @@
+/**
+ * Enable / Disable block modifier. .o-list--block : Each list
+ * item will have display block with a bottom margin.
+ *
+ * Type: Boolean
+ */
+
+$iota-objs-list-block: false;
+
+
+/**
+ * Enable / Disable inline modifier. .o-list--inline Each list
+ * item will have display inline-block with a right margin.
+ *
+ * Type: Boolean
+ */
+
+$iota-objs-list-inline: false;
+
+
+/**
+ * Enable / Disable span modifier. .o-list--span : Each list
+ * item will have display table-cell with a border spacing so
+ * that they never wrap to a new row.
+ *
+ * Type: Boolean
+ */
+
+$iota-objs-list-span: false;
+
+
+/**
+ * Default gutter size. Use a number for a single size or
+ * a map for a responsive size.
+ *
+ * Type: Number / Map
+ */
+
+$iota-objs-list-gutter-default: $iota-global-gutter-default;
+
+
+/**
+ * Extra gutters map. Each gutter size will be available
+ * as a modifier that will be named according to the gutter
+ * name. E.g. If $iota-objs-list-gutter-extra: ('compact': '10px');
+ * then .o-list--compact will be available for use.
+ *
+ * Type: Map
+ */
+
+$iota-objs-list-gutter-extra: ();
+
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-objs-list-namespace   : 'list';
+$iota-objs-list-item-name   : 'item';
+$iota-objs-list-block-name  : 'block';
+$iota-objs-list-inline-name : 'inline';
+$iota-objs-list-span-name   : 'span';
+
+
+@import 'node_modules/iotacss/objects/list';

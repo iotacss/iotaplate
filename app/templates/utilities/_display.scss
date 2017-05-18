@@ -1,0 +1,33 @@
+/**
+ * Enables / Disables breakpoint specific classes
+ *
+ * Type: Boolean
+ */
+
+$iota-utils-display-res: false;
+
+
+/**
+ * Breakpoints map. Overrides the breakpoints map only
+ * for display utility.
+ *
+ * Type: Map
+ */
+
+$iota-utils-display-breakpoints: $iota-global-breakpoints;
+
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-utils-display-namespace         : '';
+$iota-utils-display-block-name        : 'block';
+$iota-utils-display-hidden-name       : 'hidden';
+$iota-utils-display-inline-name       : 'inline';
+$iota-utils-display-inline-block-name : 'inline-block';
+
+
+@import 'node_modules/iotacss/utilities/display';

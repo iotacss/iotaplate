@@ -1,0 +1,89 @@
+/**
+ * Enable / Disable aligment modifiers.
+ * .o-media--middle Align columns at middle vertically
+ * .o-media--bottom Align columns at bottom vertically.
+ *
+ * Type: Boolean
+ */
+
+$iota-objs-media-aligned: false;
+
+
+/**
+ * Enable / Disable reversed modifier
+ * .o-media--rev Reverse columns order
+ *
+ * Type: Boolean
+ */
+
+$iota-objs-media-rev: false;
+
+
+/**
+ * Default gutter size. Use a number for a single size or
+ * a map for a responsive size.
+ *
+ * Type: Number / Map
+ */
+
+$iota-objs-media-gutter-default: $iota-global-gutter-default;
+
+
+/**
+ * Extra gutters map. Each gutter size will be available as
+ * a modifier that will be named according to the gutter name.
+ * Use a map for a single size or a nested map for a responsive
+ * size. E.g. If $iota-objs-media-gutter-extra: ('compact': '10px');
+ * then .o-media--compact will be available for use.
+ *
+ * Type: Map
+ */
+
+$iota-objs-media-gutter-extra: ();
+
+
+/**
+ * Enable / Disable flexbox
+ *
+ * Type: Boolean
+ */
+
+$iota-objs-media-flex: $iota-global-flex;
+
+
+/**
+ * Enable / Disable responsive modifier.
+ * .o-media--res Collapse fluid section bellow fixed one,
+ * at a specific max-width breakpoint.
+ *
+ * Type: Boolean
+ */
+
+$iota-objs-media-res: false;
+
+
+/**
+ * Specify max-width for breakpoint to collapse at.
+ *
+ * Type: Number
+ */
+
+$iota-objs-media-collapse-at: 767px;
+
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-objs-media-namespace          : 'media';
+$iota-objs-media-fixed-name         : 'fixed';
+$iota-objs-media-fluid-name         : 'fluid';
+$iota-objs-media-reversed-name      : 'rev';
+$iota-objs-media-align-middle-name  : 'middle';
+$iota-objs-media-align-bottom-name  : 'bottom';
+$iota-objs-media-responsive-name    : 'res';
+
+
+@import 'node_modules/iotacss/objects/media';

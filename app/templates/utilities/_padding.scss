@@ -1,0 +1,54 @@
+/**
+ * Padding default gutter. Use a number for a simple size
+ * and a map for responsive.
+ *
+ * Type: Number / Map
+ */
+
+$iota-utils-padding-default: $iota-global-gutter-default;
+
+
+/**
+ * Padding extra gutters.
+ *
+ * Type: Map
+ */
+
+$iota-utils-padding-extra: ();
+
+
+/**
+ * Enables / Disables responsive classes
+ *
+ * Type: Boolean
+ */
+
+$iota-utils-padding-res: false;
+
+
+/**
+ * Breakpoints map. Overrides the breakpoints map only
+ * for padding utility.
+ *
+ * Type: Map
+ */
+
+$iota-utils-padding-breakpoints: $iota-global-breakpoints;
+
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-utils-padding-namespace        : 'p';
+$iota-utils-padding-top-name         : 't';
+$iota-utils-padding-right-name       : 'r';
+$iota-utils-padding-bottom-name      : 'b';
+$iota-utils-padding-left-name        : 'l';
+$iota-utils-padding-vertical-name    : 'v';
+$iota-utils-padding-horizontal-name  : 'h';
+
+
+@import 'node_modules/iotacss/utilities/padding';

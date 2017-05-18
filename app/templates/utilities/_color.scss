@@ -1,0 +1,19 @@
+/**
+ * Color names
+ *
+ * Type: Map
+ */
+
+$iota-utils-color-names: ();
+
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-utils-color-namespace: 'color-';
+
+
+@import 'node_modules/iotacss/utilities/color';

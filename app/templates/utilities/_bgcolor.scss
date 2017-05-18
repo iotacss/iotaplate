@@ -1,0 +1,19 @@
+/**
+ * Background color names
+ *
+ * Type: Map
+ */
+
+$iota-utils-bgcolor-names: ();
+
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-utils-bgcolor-namespace: 'bgcolor-';
+
+
+@import 'node_modules/iotacss/utilities/bgcolor';

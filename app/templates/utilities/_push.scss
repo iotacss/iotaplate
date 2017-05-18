@@ -1,0 +1,47 @@
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-utils-push-namespace: 'push-';
+
+
+/**
+ * Size delimiter. Defaults to \/. Ex: .u-push-1/3
+ *
+ * Type: String
+ */
+
+$iota-utils-push-delimiter: $iota-global-delimiter;
+
+
+/**
+ * Columns to populate push utility for
+ *
+ * Type: Unitless Number / List
+ */
+
+$iota-utils-push-columns: $iota-global-columns;
+
+
+/**
+ * Enables / Disables breakpoint specific classes
+ *
+ * Type: Boolean
+ */
+
+$iota-utils-push-res: false;
+
+
+/**
+ * Breakpoints map. Allows you to create breakpoints only
+ * for the push responsive utility.
+ *
+ * Type: Map
+ */
+
+$iota-utils-push-breakpoints: $iota-global-breakpoints;
+
+
+@import 'node_modules/iotacss/utilities/push';

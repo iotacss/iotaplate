@@ -1,0 +1,29 @@
+/**
+ * The base value the scale starts at.
+ *
+ * Number
+ */
+
+$iota-tools-ms-base: 15px;
+
+
+/**
+ * The ratio the scale is built on
+ *
+ * Unitless Number
+ */
+
+$iota-tools-ms-ratio: 1.2;
+
+
+/**
+ * Length of scale ( right part of the decimal
+ * point ) ms will be rounded to.
+ *
+ * Unitless Number
+ */
+
+$iota-tools-ms-scale: 3;
+
+
+@import 'node_modules/iotacss/tools/ms';

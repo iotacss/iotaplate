@@ -1,0 +1,32 @@
+/**
+ * Enable / Disable breakpoint specific classes
+ *
+ * Type: Boolean
+ */
+
+$iota-utils-align-res: false;
+
+
+/**
+ * Override breakpoints map only for align utility
+ *
+ * Type: Type: Map
+ */
+
+$iota-utils-align-breakpoints: $iota-global-breakpoints;
+
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-utils-align-namespace     : 'align';
+$iota-utils-align-top-name      : 'top';
+$iota-utils-align-bottom-name   : 'bottom';
+$iota-utils-align-middle-name   : 'middle';
+$iota-utils-align-baseline-name : 'baseline';
+
+
+@import 'node_modules/iotacss/utilities/align';

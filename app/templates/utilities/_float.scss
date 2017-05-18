@@ -1,0 +1,32 @@
+/**
+ * Enables / Disables breakpoint specific classes
+ *
+ * Type: Boolean
+ */
+
+$iota-utils-float-res: false;
+
+
+/**
+ * Breakpoints map. Overrides the breakpoints map only
+ * for float utility.
+ *
+ * Type: Map
+ */
+
+$iota-utils-float-breakpoints: $iota-global-breakpoints;
+
+
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-utils-float-namespace   : 'float-';
+$iota-utils-float-left-name   : 'left-';
+$iota-utils-float-right-name  : 'right-';
+
+
+@import 'node_modules/iotacss/utilities/float';
