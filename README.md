@@ -20,6 +20,8 @@ $ iotaplate
 
 You are good to go!
 
+**Make sure you have a package.json in your application's root folder. iotaPlate needs that in order to install `iotacss` package.**
+
 
 ## License
 
