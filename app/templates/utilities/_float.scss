@@ -25,8 +25,8 @@ $iota-utils-float-breakpoints: $iota-global-breakpoints;
  */
 
 $iota-utils-float-namespace   : 'float-';
-$iota-utils-float-left-name   : 'left-';
-$iota-utils-float-right-name  : 'right-';
+$iota-utils-float-left-name   : 'left';
+$iota-utils-float-right-name  : 'right';
 
 
 @import 'node_modules/iotacss/utilities/float';
