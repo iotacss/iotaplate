@@ -1,4 +1,15 @@
 /**
+ * Enable / Disable aligment modifiers.
+ * .o-list--middle : Align list items on middle vertically
+ * .o-list--bottom : Align list items on bottom vertically
+ *
+ * Type: Boolean
+ */
+
+$iota-objs-list-aligned: false;
+
+
+/**
  * Enable / Disable block modifier. .o-list--block : Each list
  * item will have display block with a bottom margin.
  *

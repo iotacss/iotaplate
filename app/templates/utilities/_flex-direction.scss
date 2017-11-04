@@ -1,0 +1,32 @@
+/**
+ * Enable / Disable breakpoint specific classes
+ *
+ * Type: Boolean
+ */
+
+$iota-utils-flex-direction-res: false;
+
+
+/**
+ * Override breakpoints map only for align utility
+ *
+ * Type: Type: Map
+ */
+
+$iota-utils-flex-direction-breakpoints: $iota-global-breakpoints;
+
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-utils-flex-direction-namespace            : 'fd-';
+$iota-utils-flex-direction-row-name             : 'row';
+$iota-utils-flex-direction-row-reverse-name     : 'rowrev';
+$iota-utils-flex-direction-column-name          : 'col';
+$iota-utils-flex-direction-column-reverse-name  : 'colrev';
+
+
+@import 'node_modules/iotacss/utilities/flex-direction';

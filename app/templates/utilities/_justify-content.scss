@@ -1,0 +1,31 @@
+/**
+ * Enable / Disable breakpoint specific classes
+ *
+ * Type: Boolean
+ */
+
+$iota-utils-justify-content-res: false;
+
+
+/**
+ * Override breakpoints map only for align utility
+ *
+ * Type: Type: Map
+ */
+
+$iota-utils-justify-content-breakpoints: $iota-global-breakpoints;
+
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-utils-justify-content-namespace   : 'jc-';
+$iota-utils-justify-content-start-name  : 'start';
+$iota-utils-justify-content-end-name    : 'end';
+$iota-utils-justify-content-center-name : 'center';
+
+
+@import 'node_modules/iotacss/utilities/justify-content';
